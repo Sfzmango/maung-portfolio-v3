@@ -7,28 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maung Htike Portfolio</title>
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css" v />
     <style>
         * {
             scroll-behavior: smooth;
+            font-family: serif;
         }
     </style>
 </head>
 
 <body>
-    <nav class="uk-width-1-1\@s uk-background-cover" uk-navbar style="background-color: antiquewhite;">
+    <nav class="uk-width-1-1\@s uk-background-cover" uk-navbar style="background-color: #222222;">
         <div class="uk-navbar-left">
             <ul class="uk-margin-small-left uk-navbar-nav">
-                <li><a href="/"><img src="./assets/logo.jfif" alt="website logo" width="50px" /></a></li>
+                <li><a href="/"><img src="./assets/logo.png" alt="website logo" width="100px" /></a></li>
             </ul>
         </div>
 
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav uk-margin-medium-right">
-                <a href="#"><span uk-icon="icon: menu; ratio: 1.5" class="uk-text-secondary"></span></a>
+                <a href="#"><span uk-icon="icon: menu; ratio: 1.5" class="uk-text-muted"></span></a>
                 <div class="uk-navbar-dropdown">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="/experiences">Experiences</a></li>
@@ -51,14 +49,19 @@
         </div>
     </nav>
 
-    {{{body}}}
 
-    <!-- footer -->
-    <div class="uk-container uk-margin-large-top uk-text-center" style="color:black">
-        <p>- © Maung Htike, 2022 MIT. Made using the UIkit CSS framework -</p>
+    <div class=" uk-section uk-background-cover uk-comment-primary"
+        style="background-image: url('https://media.istockphoto.com/vectors/gray-abstract-backgriund-vector-id657622856?b=1&k=20&m=657622856&s=612x612&w=0&h=8qXVOFVPoSRKGJHdU2OWafh5uwi0YVliYph6Wq5ySdM=');">
+
+        <!-- body -->
+        {{{body}}}
+
+        <!-- footer -->
+        <div class="uk-container uk-margin-large-top uk-text-center" style="color:black">
+            <p>- © Maung Htike, 2022 MIT. Made using the UIkit CSS framework -</p>
+        </div>
     </div>
 
-    </div>
 
 
     <!-- UIkit JS -->
