@@ -31,14 +31,12 @@ This is a program constructed with Javascript and utilizes Node.js. It features 
 
 ## <ins> Installation: </ins>
         
-The webpage is deployed on Heroku so there is no need to download any of the files to run the program. If you would like to instead install it locally, please download all the files included in the repository. Afterwards, please open your terminal into the repository folder and utilize Node.js's npm install feature to install all the used packages. Then, load up mysql and enter your password. Source the schema file and quit.
+The webpage is deployed on Heroku so there is no need to download any of the files to run the program. If you would like to instead install it locally, please download all the files included in the repository. Afterwards, please open your terminal into the repository folder and utilize Node.js's npm install feature to install all the used packages.
 <br>***npm i***<br>
-<br>***mysql -u root -p***<br>
-<br>***source db/schema.sql***<br>
 
 ## <ins> Usage: </ins>
         
-To start the program via Heroku, please go to https://vacation-awaits.herokuapp.com/. If you would like to start the program locally, please follow the local installation steps and type in ***npm start***. You will then be able to go to the proper routes to see the webpage.
+To start the program via Heroku, please go to https://maung-htike-portfolio-v3.herokuapp.com/. If you would like to start the program locally, please follow the local installation steps and type in ***npm start***. You will then be able to go to the proper routes to see the webpage.
 
 <br>  
 
@@ -61,15 +59,7 @@ To start the program via Heroku, please go to https://vacation-awaits.herokuapp.
 
 - ![Handlebars](https://img.shields.io/badge/Handlebars-orange?style=for-the-badge&logo=Handlebars.js&logoColor=black)
 
-- ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
-
-- ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
-
 - ![DotEnv](https://img.shields.io/badge/DotEnv-purple?style=for-the-badge)
-
-- ![Bcrypt](https://img.shields.io/badge/Bcrypt-orange?style=for-the-badge)
-
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
